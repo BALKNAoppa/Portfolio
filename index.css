@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Fira Code;
+    display: flex;
+    justify-content: center;
+}
+.main-background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #282C33;
+}
+.header-subcontainer{
+    margin-top: 32px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-container{
+    width: 1024px;
+    height: 61px;
+}
+
+.header-logo-container{
+    width: 72px;
+    height: 21px;
+    display: flex;
+}
+.header-logo{
+    width: 16px;
+    height: 16px;
+}
+.header-logo-name{
+    margin: 0;
+    margin-left: 8px;
+    color: #ABB2BF;
+    font-size: 16px;
+    font-weight: 700;
+}
+.header-menu-container{
+    width: 443px;
+    height: 21px;
+    list-style-type: none;
+    display: flex;
+    font-size: 16px;
+    justify-content: space-between;
+}
+.header-menu{
+    color: #ABB2BF;
+}
+.header-hash{
+    color: #C778DD;
+}
+.language-switcher{
+    color: #ABB2BF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.switcher-arrow{
+    margin-left: 5px;
+}
+.footer-container{
+    width: 1024px;
+    height: 208px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-subsection{
+    width: 1024px;
+    height: 144px;
+}
+.footer-top{
+    width: 1024px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top-text-logo{
+    display: flex;
+}
+.top-text-logo{
+    width: 16px;
+    height: 16px;
+}
+.top-text-name{
+    margin: 0;
+    margin-left: 8px;
+    color: #FFFFFF
+}
+.top-text-mail{
+    margin: 0;
+    margin-left: 24px;
+    color: #ABB2BF
+}
+.top-just-text{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 0;
+    margin-top: 16px;
+}
+.right-text{
+    font-size: 24px;
+    font-weight: 650;
+    color: #ABB2BF;
+    margin: 0;
+    margin-bottom: 12px;
+}
+.right-logo{
+    width: 32px;
+    height: 32px;
+}
+.footer-bottom{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 1025px;
+    height: 69px;
+}
+.bottom-text{
+    color: #ABB2BF;
+    font-size: 16px;
+}
+.first-section{
+    width: 1024px;
+    height: 423px;
+    margin-top: 62px;
+}
+.first-left{
+    width: 537px;
+    height: 227px;
+    margin-top: 74px;
+}
+.first-text{
+    font-size: 32px;
+    font-weight: 650px;
+    color: #FFFFFF;
+    margin: 0;
+    font-weight: 550;
+}
+.purple-text{
+    color: #C778DD;
+}
+.first-text2{
+    width: 463px;
+    height: 50px;
+    margin: 0;
+    font-size: 16px;
+    color: #ABB2BF;
+    margin-top: 32px;
+}
+.contact-button{
+    width: 148px;
+    height: 37px;
+    border: 1px solid #C778DD;
+    background-color: #282C33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: Fira Code;
+    color: #FFFFFF;
+    margin-top: 26px;
+
+}
